@@ -1,0 +1,17 @@
+name: Maro Pehlo Robot 🤖
+
+on: [push]  # <--- જ્યારે પણ કોઈ Push કરે ત્યારે જાગી જવું
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # <--- GitHub ના ફ્રી કોમ્પ્યુટર (Ubuntu) પર ચાલશે
+
+    steps:
+    - name: Code download karo
+      uses: actions/checkout@v2
+
+    - name: Hello bolo
+      run: echo "Namaste! Hu tamaro DevOps Robot chhu."
+
+    - name: System check karo
+      run: uname -a
