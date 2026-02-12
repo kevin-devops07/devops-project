@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Pro | Kevin's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <nav class="flex justify-between items-center p-6 bg-gray-800 shadow-lg">
+        <div class="text-2xl font-bold tracking-wider">🚀 DevOps<span class="text-blue-400">Master</span></div>
+        <div>
+            <a href="#" class="px-4 hover:text-blue-400 transition">Home</a>
+            <a href="#" class="px-4 hover:text-blue-400 transition">Services</a>
+            <a href="#" class="px-4 hover:text-blue-400 transition">Contact</a>
+        </div>
+    </nav>
+
+    <header class="flex flex-col items-center justify-center h-screen text-center px-4">
+        <h1 class="text-6xl font-extrabold mb-4">
+            Automate <span class="gradient-text">Everything</span>
+        </h1>
+        <p class="text-xl text-gray-300 max-w-2xl mb-8">
+            Building scalable CI/CD pipelines, managing Kubernetes clusters, and deploying Docker containers with zero downtime.
+        </p>
+        <div class="space-x-4">
+            <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition transform hover:scale-105">
+                View Projects
+            </button>
+            <button class="border border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white font-bold py-3 px-8 rounded-full transition">
+                Contact Me
+            </button>
+        </div>
+    </header>
+
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-8 p-10 max-w-6xl mx-auto">
+        <div class="bg-gray-800 p-8 rounded-2xl shadow-xl hover:bg-gray-750 transition border-t-4 border-blue-500">
+            <div class="text-4xl mb-4">🐳</div>
+            <h3 class="text-2xl font-bold mb-2">Docker & Containers</h3>
+            <p class="text-gray-400">Expert in containerizing applications for consistent deployment across any environment.</p>
+        </div>
+        <div class="bg-gray-800 p-8 rounded-2xl shadow-xl hover:bg-gray-750 transition border-t-4 border-green-500">
+            <div class="text-4xl mb-4">⚓</div>
+            <h3 class="text-2xl font-bold mb-2">Kubernetes Orchestration</h3>
+            <p class="text-gray-400">Managing clusters, auto-scaling, and self-healing infrastructure seamlessly.</p>
+        </div>
+        <div class="bg-gray-800 p-8 rounded-2xl shadow-xl hover:bg-gray-750 transition border-t-4 border-purple-500">
+            <div class="text-4xl mb-4">🤖</div>
+            <h3 class="text-2xl font-bold mb-2">CI/CD Pipelines</h3>
+            <p class="text-gray-400">Automating build, test, and deploy processes using GitHub Actions & Jenkins.</p>
+        </div>
+    </section>
+
+    <footer class="text-center p-6 bg-gray-950 mt-10 text-gray-500">
+        &copy; 2026 Kevin's DevOps Solutions. Deployed automatically via GitHub Actions.
+    </footer>
+
+</body>
+</html>
